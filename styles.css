@@ -138,3 +138,10 @@
 @media(max-width:800px){.platform-bottom{min-height:0;margin-top:0;padding:40px 32px}.modal-image{margin:25px 10px 10px}.product-badge{transform:scale(.9)}}
 @media(max-width:560px){.platform-bottom{padding:30px 20px;border-radius:25px;box-shadow:6px 7px 0 #15171b}.platform-text h3{font-size:35px;letter-spacing:-2px}.modal-image{padding:12px;margin-top:18px}.product-badge{display:none}}
 @media(prefers-reduced-motion:reduce){.modal-image,.product-badge{animation:none}}
+
+/* Full-screen Wi-Fi journey previews */
+.demo-device.image-mode{padding:0;overflow:hidden;background:#11158f}
+.demo-device.image-mode .device-header{display:none}
+.demo-device.image-mode .demo-content{padding:0}
+.demo-content .demo-full-image{display:block;width:100%;max-width:none;max-height:none;margin:0;border-radius:14px;object-fit:contain}
+@media(max-width:560px){.demo-content .demo-full-image{border-radius:10px}}
