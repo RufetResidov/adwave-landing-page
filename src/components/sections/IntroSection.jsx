@@ -1,0 +1,5 @@
+export default function IntroSection() {
+  return (
+    <section className="intro section"><div className="container"><div className="section-head centered reveal"><span className="kicker">YENİ NƏSİL REKLAM PLATFORMASI</span><h2>Adi Wi-Fi deyil. <span>Yeni kommunikasiya kanalı.</span></h2><p>İnternet bağlantısını biznesiniz və müştəriləriniz üçün daha dəyərli təcrübəyə çevirin.</p></div><div className="value-grid"><article className="value-card reveal"><span className="value-icon">⌖</span><h3>Doğru yerdə, doğru mesaj</h3><p>Lokasiya əsaslı yanaşma ilə reklamları məkanınızdakı real auditoriyaya çatdırın.</p></article><article className="value-card reveal"><span className="value-icon">▣</span><h3>Sadə kampaniya idarəetməsi</h3><p>Reklamları yaradın, planlaşdırın və bütün prosesləri vahid paneldən izləyin.</p></article><article className="value-card reveal"><span className="value-icon">✧</span><h3>Rahat Wi-Fi təcrübəsi</h3><p>İstifadəçilərə internetə qoşulmaq üçün aydın, sürətli və sadə axın təqdim edin.</p></article></div></div></section>
+  )
+}

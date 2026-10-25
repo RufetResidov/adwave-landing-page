@@ -1,0 +1,3 @@
+export default function Footer() {
+  return <footer className="footer"><div className="container footer-main"><a className="brand" href="#home"><span className="mark">✺</span><span>Ad<span className="brand-light">wave</span></span></a><p>Wi-Fi-dan daha çoxu. Məkanınız üçün ağıllı reklam təcrübəsi.</p><div className="footer-links"><a href="#how">Necə işləyir?</a><a href="#platform">Platforma</a><a href="#features">Üstünlüklər</a><a href="#contact">Əlaqə</a></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Adwave. Bütün hüquqlar qorunur.</span><a href="#home">Yuxarı qayıt ↑</a></div></footer>
+}

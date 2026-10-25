@@ -1,0 +1,7 @@
+import dashboard from '../../../assets/dashboard.png'
+
+export default function HeroSection() {
+  return (
+    <section className="hero" id="home"><div className="container hero-inner"><div className="hero-copy reveal"><h1>Hər Wi-Fi bağlantısı <span>yeni reklam fürsətidir.</span></h1><p>Müştərilərinizə pulsuz internet təqdim edin, brendinizlə əlaqələri gücləndirin və reklam kampaniyalarınızı vahid platformadan idarə edin.</p><div className="hero-actions"><a className="btn btn-primary" href="#contact">Demo tələb et <span>↗</span></a><a className="btn hero-secondary" href="#contact">Bizimlə əlaqə</a></div></div><div className="hero-visual reveal"><div className="orbit-line orbit-one" aria-hidden="true"></div><div className="orbit-line orbit-two" aria-hidden="true"></div><div className="hero-float hero-float-left"><span className="float-check">✓</span><strong>Lokasiya əsaslı reklam</strong><small>Doğru auditoriya · doğru məkan</small><span className="status-pill">Aktiv</span></div><div className="hero-screen"><div className="screen-top"><span className="screen-dots">● ● ●</span><span>Adwave / Campaign Manager</span><span>↗</span></div><img src={dashboard} alt="AdGo reklam idarəetmə paneli" /></div><div className="hero-float hero-float-right"><span className="float-check">↗</span><strong>Kampaniya performansı</strong><small>Vahid paneldə canlı izləmə</small><span className="metric">+24%</span></div></div></div></section>
+  )
+}
