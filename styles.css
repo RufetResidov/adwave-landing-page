@@ -145,3 +145,13 @@
 .demo-device.image-mode .demo-content{padding:0}
 .demo-content .demo-full-image{display:block;width:100%;max-width:none;max-height:none;margin:0;border-radius:14px;object-fit:contain}
 @media(max-width:560px){.demo-content .demo-full-image{border-radius:10px}}
+
+/* Unified Adwave use-case card palette */
+.use-card,.use-card.hotel,.use-card.mall,.use-card.airport,.use-card:nth-child(2n){background:#f8f8f8;color:#15171b}
+.use-card:after{width:210px;height:210px;right:-72px;top:-72px;border-width:28px;border-color:rgba(23,40,237,.1)}
+.use-icon{position:relative;z-index:2;display:grid;place-items:center;width:56px;height:56px;border:2px solid #15171b;border-radius:16px;background:var(--blue);color:#fff;font-family:Inter,Arial,sans-serif;font-size:28px;box-shadow:4px 5px 0 #15171b;transition:transform .25s ease,box-shadow .25s ease}
+.use-card:hover .use-icon{transform:rotate(-6deg) translateY(-3px);box-shadow:6px 7px 0 #15171b}
+.use-card h3{color:#15171b}
+.use-card p{color:#606779}
+.use-card:nth-child(2),.use-card:nth-child(3){background:#eef0ff}
+@media(max-width:560px){.use-icon{width:50px;height:50px;font-size:24px}.use-card:after{opacity:.7}}
