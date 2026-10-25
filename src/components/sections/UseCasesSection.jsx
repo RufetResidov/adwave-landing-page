@@ -1,0 +1,5 @@
+export default function UseCasesSection() {
+  return (
+    <section className="usecases section" id="usecases"><div className="container"><div className="section-head centered reveal"><span className="kicker">HƏR MƏKAN ÜÇÜN</span><h2>İnsanların qoşulduğu <span>hər yerdə.</span></h2><p>Kiçik bizneslərdən böyük ictimai məkanlara qədər Adwave müxtəlif ssenarilərə uyğunlaşır.</p></div><div className="use-grid"><div className="use-card cafe reveal"><span className="use-icon">◉</span><div><h3>Kafe və restoranlar</h3><p>Qonaq təcrübəsini yeni kommunikasiya imkanları ilə tamamlayın.</p></div></div><div className="use-card hotel reveal"><span className="use-icon">▥</span><div><h3>Otellər</h3><p>Qonaqların Wi-Fi bağlantısını dəyərli təmas nöqtəsinə çevirin.</p></div></div><div className="use-card mall reveal"><span className="use-icon">◈</span><div><h3>Ticarət mərkəzləri</h3><p>Fərqli auditoriyalara məkan daxilində reklam təqdim edin.</p></div></div><div className="use-card airport reveal"><span className="use-icon">✈︎</span><div><h3>Hava limanları</h3><p>Yüksək istifadəçi axını olan məkanlar üçün çevik reklam təcrübəsi.</p></div></div></div></div></section>
+  )
+}
