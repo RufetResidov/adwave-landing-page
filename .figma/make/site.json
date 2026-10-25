@@ -1,1 +1,10 @@
-{}
+{
+  "description": "Adwave helps businesses offer free Wi-Fi, strengthen customer relationships, and manage advertising campaigns from one platform.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
