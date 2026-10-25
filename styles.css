@@ -58,3 +58,56 @@
 @media(max-width:700px){.hero .hero-inner{padding-top:65px}.hero h1{letter-spacing:-3.4px}.hero .hero-copy>p{font-size:15px}.hero .hero-visual{margin-top:62px;padding:0 8px 50px}.hero-float{display:none}.orbit-line{display:none}.hero .hero-screen{border-width:7px;border-bottom-width:12px;border-radius:17px}.hero .hero-screen:after{bottom:-29px;height:15px}.hero .screen-top{height:30px}}
 @media(max-width:560px){.hero h1{font-size:39px;letter-spacing:-2.7px}.hero .hero-actions .btn{min-width:0}.hero .hero-screen{animation-duration:7s}}
 @media(prefers-reduced-motion:reduce){.hero .hero-screen,.hero-float{animation:none}}
+
+/* Cohesive SaaSnap-inspired page system — Adwave blue remains primary */
+.hero .btn-primary{background:var(--blue);color:#fff}
+.float-check{background:var(--blue)}
+.status-pill{background:#e7eaff;color:var(--navy)}
+.section{padding:105px 0}
+.soft,.footer{background:#f1f1f1}
+.section-head{max-width:720px}
+.section-head.centered{max-width:780px}
+.section h2{color:#101216;font-weight:800;letter-spacing:-2.8px}
+.section h2 span{color:var(--blue)}
+.kicker{padding:8px 13px;border:1.5px solid var(--blue);border-radius:999px;letter-spacing:1.3px;background:#eef0ff}
+.value-grid,.benefit-grid,.use-grid{gap:22px}
+.value-card,.benefit-card,.use-card{border:2px solid #15171b;border-radius:26px;box-shadow:5px 6px 0 #15171b;transition:transform .25s ease,box-shadow .25s ease}
+.value-card:hover,.benefit-card:hover,.use-card:hover{transform:translate(-2px,-5px);box-shadow:8px 11px 0 #15171b}
+.value-icon{background:var(--blue);color:#fff;border:2px solid #15171b;border-radius:50%}
+.steps-layout{gap:75px}
+.step{border:2px solid #15171b;border-radius:22px;box-shadow:4px 5px 0 #15171b}
+.step:hover{transform:translateY(-3px)}
+.step.active{border-color:#15171b;background:#eef0ff;box-shadow:7px 8px 0 var(--blue)}
+.demo-panel{background:var(--blue);border:3px solid #15171b;border-radius:28px;box-shadow:8px 10px 0 #15171b}
+.demo-device{border:2px solid #15171b;border-radius:20px}
+.demo-button{border:2px solid #15171b;border-radius:999px;box-shadow:4px 5px 0 #15171b;transition:.2s}
+.demo-button:hover{transform:translate(2px,2px);box-shadow:2px 3px 0 #15171b}
+.platform-display,.preview-window{border:3px solid #15171b;border-radius:26px;box-shadow:9px 11px 0 #15171b}
+.platform-display{transition:transform .35s ease}
+.platform-display:hover{transform:translateY(-7px) rotate(-.3deg)}
+.modal-image{background:#eef0ff;border:2px solid #15171b;border-radius:27px;box-shadow:7px 8px 0 #15171b}
+.checks span{display:flex;align-items:center;gap:10px;padding:12px 15px;border:1.5px solid #15171b;border-radius:999px;background:#fff}
+.dark-section{background:var(--blue)}
+.dark-section .section-head h2 span{color:#fff}
+.dark-section .kicker{color:#fff;border-color:#fff;background:rgba(255,255,255,.12)}
+.benefit-card{background:#fff;color:#15171b;min-height:270px}
+.benefit-card p{color:var(--muted)}
+.benefit-symbol{color:var(--blue)}
+.use-card{min-height:240px;background:#fff}
+.use-card.hotel,.use-card.mall,.use-card.airport{background:#fff}
+.use-card:nth-child(2n){background:#eef0ff}
+.use-card:after{border-color:rgba(23,40,237,.12)}
+.preview-switch{border:2px solid #15171b;background:#fff;border-radius:999px;padding:4px}
+.switch-btn{border-radius:999px}
+.switch-btn.active{background:var(--blue);color:#fff;box-shadow:none}
+.faq-items details{margin-bottom:14px;padding:20px 22px;border:2px solid #15171b;border-radius:20px;background:#fff;box-shadow:4px 5px 0 #15171b}
+.faq-items details[open]{background:#eef0ff;box-shadow:6px 7px 0 var(--blue)}
+.cta-section{padding:80px 0;background:#f1f1f1}
+.cta-box{border:3px solid #15171b;border-radius:30px;background:var(--blue);box-shadow:10px 12px 0 #15171b}
+.cta-copy .btn{border:2px solid #15171b;border-radius:999px;box-shadow:5px 6px 0 #15171b;color:#15171b}
+.text-link{display:inline-flex;padding-bottom:4px;border-bottom:2px solid var(--blue)}
+.footer-main{padding-top:65px}
+.reveal{transform:translateY(34px) scale(.985);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.visible{transform:translateY(0) scale(1)}
+@media(max-width:800px){.section{padding:80px 0}.section h2{letter-spacing:-2px}.steps-layout{gap:50px}.value-card,.benefit-card,.use-card{box-shadow:4px 5px 0 #15171b}.platform-display,.preview-window{box-shadow:6px 7px 0 #15171b}.cta-box{box-shadow:7px 8px 0 #15171b}}
+@media(max-width:560px){.section{padding:68px 0}.section h2{letter-spacing:-1.7px}.kicker{font-size:9px}.faq-items details{padding:17px}.cta-section{padding:55px 0}.cta-box{border-radius:24px}}
